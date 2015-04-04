@@ -14,10 +14,10 @@
 /**
  * @section  Import of Stylesheets (also google fonts)
  */
-@import url( 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700' );
+@import url( 'https://fonts.googleapis.com/css?family=Droid+Sans:400italic,700italic,400,700' );
 @import url( 'buttons.css' );
 
-body { font: 400 17px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body { font: 400 17px/1.6 "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 small {font-size: 12px; color: #646464; }
 
 a, a:link { font-size: 12px; text-decoration: none; color: #AB3521; }
@@ -102,7 +102,7 @@ td.news-heading-public { background-color: #cccccc; color: #42484b; text-align: 
 td.news-heading-private { background-color: #d8d8d8; color: #42484b; text-align: left; border-bottom: 1px solid #42484b; }
 td.news-body { background-color: #f4f5ef; color: #42484b; padding: 16px; }
 
-tt { font: 400 13px/1.6 "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+tt { font: 400 13px/1.6 "Droid Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 img{}
 img.icon { width: 11px; height: 11px; }
@@ -110,6 +110,13 @@ img.delete-icon { position: relative; top: 5px; border: 0; }
 
 div { padding: 3px; }
 div.menu { background-color: #e8e8e8; color: #42484b; text-align: center; width: 100%; padding: 1px; }
+
+td.menu
+{
+        text-align: center;
+        width: 100%;
+        padding: 3px;
+}
 
 div.center { width: 50%; margin-right: auto; margin-left: auto; }
 
